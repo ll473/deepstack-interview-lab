@@ -2,8 +2,6 @@
 
 面向大模型、AI Agent、Harness 与后端岗位的交互式练习网站。支持背题、考试、题库管理、账号同步、AI 资讯和 GitHub 增长项目榜。
 
-线上站点：<https://deepstack-interview-lab-818.kimberlythompsonh572.chatgpt.site>
-
 ## 主要功能
 
 - 背题模式：直接查看参考答案
@@ -16,6 +14,24 @@
 - 分页浏览：新闻与项目榜均支持多页数据
 - 更新计划：站点所有者可设置每隔数小时、每天指定时间或每周更新
 - 移动端适配：桌面与手机均可使用
+
+## 界面预览
+
+### 背题模式
+
+![背题模式](docs/screenshots/study-mode.png)
+
+### AI 新闻榜
+
+![AI 新闻榜](docs/screenshots/ai-news.png)
+
+### 每日重点应用
+
+![每日重点应用](docs/screenshots/ai-app-news.png)
+
+### GitHub AI 增长榜
+
+![GitHub AI 增长榜](docs/screenshots/github-growth.png)
 
 ## 本地运行
 
