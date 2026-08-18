@@ -1,0 +1,32 @@
+{
+  "name": "llm-backend-interview-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "postbuild": "mkdir -p dist/.openai && cp .openai/hosting.json dist/.openai/hosting.json",
+    "start": "vinext start",
+    "dev:vinext": "vinext dev --port 3001",
+    "build:vinext": "vinext build",
+    "start:vinext": "wrangler dev --config dist/server/wrangler.json",
+    "deploy:vinext": "vinext-cloudflare deploy --config dist/server/wrangler.json"
+  },
+  "dependencies": {
+    "@vinext/cloudflare": "^1.0.0-beta.6",
+    "lucide-react": "^0.468.0",
+    "mammoth": "^1.11.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-server-dom-webpack": "latest",
+    "vinext": "latest"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.52.1",
+    "@vitejs/plugin-react": "^6.0.5",
+    "@vitejs/plugin-rsc": "latest",
+    "vite": "latest",
+    "wrangler": "^4.123.0"
+  },
+  "type": "module"
+}

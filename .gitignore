@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.next/
+.DS_Store
+npm-debug.log*
+.repo-git/
+.vinext/
+.wrangler/
+qa/
+upload/
+.env
+.env.*
+!.env.example
