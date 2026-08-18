@@ -6,6 +6,7 @@ npm-debug.log*
 .repo-git/
 .vinext/
 .wrangler/
+.openai/hosting.json
 qa/
 upload/
 .env

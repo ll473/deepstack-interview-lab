@@ -57,7 +57,9 @@ npm start
 
 ## 部署
 
-项目基于 React、Vinext 和 Cloudflare 运行时。OpenAI Sites 的项目绑定位于 `.openai/hosting.json`；如部署到其他环境，请按目标平台重新配置 D1 绑定和环境密钥。
+项目基于 React、Vinext 和 Cloudflare 运行时。首次在某个 ChatGPT 账号中部署时，请让 Sites 新建项目并生成该账号自己的托管配置，然后配置 D1 数据库、执行 `migrations/` 中的迁移，并设置独立的 `AUTH_PEPPER`。
+
+公开仓库不包含线上地址、账号专属 Sites 项目 ID、数据库数据或部署密钥。
 
 ## 仓库边界
 
